@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class BankingApplication {
 
     public static void main(String[] args) {
-        
 
-
+        BankAccount obj1 = new BankAccount("Matthew","12345");
+        obj1.showMenu();
 
     }
-
+    
 }
 
 class BankAccount {
@@ -62,7 +62,7 @@ class BankAccount {
         char option = '\0';
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println("Welcome " + customerName);
+        System.out.println("Welcome " + customerName + "!");
         System.out.println("Your ID is " + customerId);
         System.out.println("\n");
         System.out.println("A. Check Balance");
