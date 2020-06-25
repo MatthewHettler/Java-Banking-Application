@@ -112,6 +112,12 @@ class BankAccount {
                 System.out.println("--------------------------------------");
                 System.out.println("\n");
                 break;
+
+            case 'E':
+                System.out.println("**************************************");
+                System.out.println("Exiting the program...");
+                System.out.println("**************************************");
+                break;
                 
             default:
                 System.out.println("Invalid Option! Please enter again.");
@@ -121,6 +127,6 @@ class BankAccount {
         } while (option != 'E');
 
         System.out.println("Thank you for using our services!");
-        
+
     }
 }
