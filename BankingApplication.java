@@ -43,7 +43,7 @@ class BankAccount {
         }
         else if (previousTransaction < 0)
         {
-            System.out.println("Withdrawn: " + Math.abs(previousTransaction);
+            System.out.println("Withdrawn: " + Math.abs(previousTransaction));
         }
         else 
         {
@@ -53,7 +53,7 @@ class BankAccount {
 
     void showMenu()
     {
-        
+
     }
 
 
